@@ -1,0 +1,37 @@
+{
+	"name":"mark_enemy",
+	"description":"just highlight/mark/outline enemy/cop/guard",
+	"author":"github@BadBoySeventeen",
+	"contact":"res.badboyseventeen@gmail.com",
+	"version":"1.0",
+	"blt_version" : 2.0,
+	"keybinds" : [
+	{
+		"keybind_id" : "keybind_tomark_civilians",
+		"name" : "mark_civilians",
+		"description" : "mark all civilians"
+		"script_path" : "civilians.lua",
+		"run_in_menu" : true,
+		"run_in_game" : true,
+		"localized" : false,
+	},
+	{
+		"keybind_id" : "keybind_tomark_cops",
+		"name" : "mark_guards",
+		"description" : "mark all cops/guards/enemies"
+		"script_path" : "cops.lua",
+		"run_in_menu" : true,
+		"run_in_game" : true,
+		"localized" : false,
+	},
+	{
+		"keybind_id" : "keybind_tomark_all",
+		"name" : "mark_all",
+		"description" : "mark all camaras and civilians and guards"
+		"script_path" : "all.lua",
+		"run_in_menu" : true,
+		"run_in_game" : true,
+		"localized" : false,
+	}
+	]
+}
